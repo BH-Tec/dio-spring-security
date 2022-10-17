@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-    <a href="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/c67f6b57-f485-44f9-9db7-5680e2604a6f"><img src="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/c67f6b57-f485-44f9-9db7-5680e2604a6f.svg" alt="wakatime"></a>
+    <a href="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/85a81a90-c05b-499c-8f2e-455820030d2f"><img src="https://wakatime.com/badge/user/68660678-6b86-4b78-98df-f5f41a37e1bc/project/85a81a90-c05b-499c-8f2e-455820030d2f.svg" alt="wakatime"></a>
 </p>
 
 ## 💻 Projeto
