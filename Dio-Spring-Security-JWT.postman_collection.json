@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "f54edf8a-206e-47fa-af17-6509e1198cb9",
+		"name": "Dio-Spring-Security-JWT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20302941"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"DIO\", \"username\":\"dio\", \"password\":\"dio123\",\"roles\":[\"USERS\"]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"username\":\"dio\", \"password\":\"dio123\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NjYwMjAxOTQsImV4cCI6MTY2NjAyMzc5NCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSUyJdfQ.0ApQNHsAb3-1ISxOT1bVsTy4tsMC-YxzCo7AMzwsPGl2VWY73zwzdVud2RqJUP2qWn0c4IV3Hl0qiK98qTIFew",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Managers",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2NjYwMjAxOTQsImV4cCI6MTY2NjAyMzc5NCwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSUyJdfQ.0ApQNHsAb3-1ISxOT1bVsTy4tsMC-YxzCo7AMzwsPGl2VWY73zwzdVud2RqJUP2qWn0c4IV3Hl0qiK98qTIFew",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/managers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"managers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
